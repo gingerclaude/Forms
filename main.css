@@ -1,0 +1,98 @@
+body {
+    background: DodgerBlue;
+    font-family: helvetica;
+    padding-top: 60px;
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+.image {
+    display: block;
+    margin: 0 auto 30px;
+    height: 35px;
+    width: auto;
+}
+
+.signup {
+    background: white;
+    margin: 0 auto;
+    padding: 40px;
+    border-radius: 3px;
+    width: 400px;
+}
+
+.signup legend {
+    font-size: 35px;
+    text-align: center;
+    color: black;
+    margin: 0 auto 45px;
+}
+
+.signup p {
+    color: white;
+    margin: 0;
+    margin-top: 10px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.signup a {
+    text-decoration: none;
+    color: grey;
+    border-bottom: 1px solid grey;
+}
+
+.footer {
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    margin: 20px auto;
+    border: 0;
+    padding: 0;
+    margin-bottom: 40px 
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+input[type='email'] {
+    margin: 20px auto;
+    border: 2px solid lightgrey;
+    padding: 15px;
+    width: 100%;
+    font-size: 15px;
+    display: block;
+}
+
+input[type='password'] {
+    margin: 20px auto;
+    border: 2px solid lightgrey;
+    padding: 15px;
+    width: 100%;
+    font-size: 15px;
+    display: block;
+}
+
+button[type='submit'] {
+    color: white;
+    background: limegreen;
+    margin: 20px auto;
+    border: 0;
+    padding: 15px;
+    width: 100%;
+    font-size: 20px;
+    display: block;
+    text-align: center;
+    height: auto;
+}
+
+button:hover[type='submit'] {
+    background: ForestGreen;
+    transition: background;
+}
+
